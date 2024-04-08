@@ -1,0 +1,15 @@
+### POST
+POST http://localhost:8080/music/add
+Content-Type: application/json
+//Authorization: Bearer ACCESS-TOKEN
+
+{
+   "title":"Musica teste",
+   "artist":"Artista teste",
+}
+
+### GET
+GET http://localhost:8080/music/get
+{
+   "title":"Tenali Ramakrishna",
+}
